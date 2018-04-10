@@ -3,3 +3,7 @@
 //
 
 #include "Test_Pointer.h"
+
+void* test_Pointer() {
+
+}
