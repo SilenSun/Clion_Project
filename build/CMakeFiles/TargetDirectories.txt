@@ -1,0 +1,3 @@
+/home/silen/Silen/Workspace/CPP/Clion_Project/build/CMakeFiles/rebuild_cache.dir
+/home/silen/Silen/Workspace/CPP/Clion_Project/build/CMakeFiles/edit_cache.dir
+/home/silen/Silen/Workspace/CPP/Clion_Project/build/CMakeFiles/CPP.dir

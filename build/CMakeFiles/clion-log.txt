@@ -1,0 +1,4 @@
+/usr/silen-Software/clion/clion-2018.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/silen/Silen/Workspace/CPP/Clion_Project
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/silen/Silen/Workspace/CPP/Clion_Project/build

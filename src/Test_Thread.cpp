@@ -4,7 +4,7 @@
 #include <iostream>
 // 必须的头文件
 #include <pthread.h>
-#include "Test_Thread.h"
+#include "../include/Test_Thread.h"
 
 using namespace std;
 

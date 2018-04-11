@@ -5,4 +5,6 @@
 #ifndef CPP_TEST_POINTER_H
 #define CPP_TEST_POINTER_H
 
+void* test_Pointer();
+
 #endif //CPP_TEST_POINTER_H

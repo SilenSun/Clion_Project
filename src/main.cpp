@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Test_Thread.h"
+#include "../include/Test_Thread.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
