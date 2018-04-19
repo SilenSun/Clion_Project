@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/silen/Silen/Workspace/CPP/Clion_Project/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -67,6 +68,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/silen/Silen/Workspace/CPP/Clion_Project/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -84,13 +86,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/silen/Silen/Workspace/CPP/Clion_Project/include/Test_Pointer.h">
-			<Option target="CPP"/>
-		</Unit>
-		<Unit filename="/home/silen/Silen/Workspace/CPP/Clion_Project/include/Test_Thread.h">
+		<Unit filename="/home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Class_Object.cpp">
 			<Option target="CPP"/>
 		</Unit>
 		<Unit filename="/home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Pointer.cpp">
+			<Option target="CPP"/>
+		</Unit>
+		<Unit filename="/home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Smart_Ptr.cpp">
 			<Option target="CPP"/>
 		</Unit>
 		<Unit filename="/home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Thread.cpp">

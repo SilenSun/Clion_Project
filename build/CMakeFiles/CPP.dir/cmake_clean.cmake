@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CPP.dir/src/main.cpp.o"
   "CMakeFiles/CPP.dir/src/Test_Thread.cpp.o"
   "CMakeFiles/CPP.dir/src/Test_Pointer.cpp.o"
+  "CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o"
+  "CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o"
   "CPP.pdb"
   "CPP"
 )

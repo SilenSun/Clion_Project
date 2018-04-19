@@ -123,6 +123,33 @@ CPP/fast:
 	$(MAKE) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/build
 .PHONY : CPP/fast
 
+src/Test_Class_Object.o: src/Test_Class_Object.cpp.o
+
+.PHONY : src/Test_Class_Object.o
+
+# target to build an object file
+src/Test_Class_Object.cpp.o:
+	$(MAKE) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o
+.PHONY : src/Test_Class_Object.cpp.o
+
+src/Test_Class_Object.i: src/Test_Class_Object.cpp.i
+
+.PHONY : src/Test_Class_Object.i
+
+# target to preprocess a source file
+src/Test_Class_Object.cpp.i:
+	$(MAKE) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.i
+.PHONY : src/Test_Class_Object.cpp.i
+
+src/Test_Class_Object.s: src/Test_Class_Object.cpp.s
+
+.PHONY : src/Test_Class_Object.s
+
+# target to generate assembly for a file
+src/Test_Class_Object.cpp.s:
+	$(MAKE) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.s
+.PHONY : src/Test_Class_Object.cpp.s
+
 src/Test_Pointer.o: src/Test_Pointer.cpp.o
 
 .PHONY : src/Test_Pointer.o
@@ -149,6 +176,33 @@ src/Test_Pointer.s: src/Test_Pointer.cpp.s
 src/Test_Pointer.cpp.s:
 	$(MAKE) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/src/Test_Pointer.cpp.s
 .PHONY : src/Test_Pointer.cpp.s
+
+src/Test_Smart_Ptr.o: src/Test_Smart_Ptr.cpp.o
+
+.PHONY : src/Test_Smart_Ptr.o
+
+# target to build an object file
+src/Test_Smart_Ptr.cpp.o:
+	$(MAKE) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o
+.PHONY : src/Test_Smart_Ptr.cpp.o
+
+src/Test_Smart_Ptr.i: src/Test_Smart_Ptr.cpp.i
+
+.PHONY : src/Test_Smart_Ptr.i
+
+# target to preprocess a source file
+src/Test_Smart_Ptr.cpp.i:
+	$(MAKE) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.i
+.PHONY : src/Test_Smart_Ptr.cpp.i
+
+src/Test_Smart_Ptr.s: src/Test_Smart_Ptr.cpp.s
+
+.PHONY : src/Test_Smart_Ptr.s
+
+# target to generate assembly for a file
+src/Test_Smart_Ptr.cpp.s:
+	$(MAKE) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.s
+.PHONY : src/Test_Smart_Ptr.cpp.s
 
 src/Test_Thread.o: src/Test_Thread.cpp.o
 
@@ -213,9 +267,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CPP"
+	@echo "... src/Test_Class_Object.o"
+	@echo "... src/Test_Class_Object.i"
+	@echo "... src/Test_Class_Object.s"
 	@echo "... src/Test_Pointer.o"
 	@echo "... src/Test_Pointer.i"
 	@echo "... src/Test_Pointer.s"
+	@echo "... src/Test_Smart_Ptr.o"
+	@echo "... src/Test_Smart_Ptr.i"
+	@echo "... src/Test_Smart_Ptr.s"
 	@echo "... src/Test_Thread.o"
 	@echo "... src/Test_Thread.i"
 	@echo "... src/Test_Thread.s"

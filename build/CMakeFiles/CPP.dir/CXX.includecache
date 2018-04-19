@@ -6,25 +6,41 @@
 
 #IncludeRegexTransform: 
 
-/home/silen/Silen/Workspace/CPP/Clion_Project/include/Test_Pointer.h
+../include/Test_Class_Object.h
 
-/home/silen/Silen/Workspace/CPP/Clion_Project/include/Test_Thread.h
+../include/Test_Pointer.h
+
+../include/Test_Smart_Ptr.h
+
+../include/Test_Thread.h
+
+/home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Class_Object.cpp
+iostream
+-
+Test_Class_Object.h
+/home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Class_Object.h
 
 /home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Pointer.cpp
-../include/Test_Pointer.h
-/home/silen/Silen/Workspace/CPP/Clion_Project/include/Test_Pointer.h
+Test_Pointer.h
+/home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Pointer.h
+
+/home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Smart_Ptr.cpp
+Test_Smart_Ptr.h
+/home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Smart_Ptr.h
 
 /home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Thread.cpp
 iostream
 -
 pthread.h
 -
-../include/Test_Thread.h
-/home/silen/Silen/Workspace/CPP/Clion_Project/include/Test_Thread.h
+Test_Thread.h
+/home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Thread.h
 
 /home/silen/Silen/Workspace/CPP/Clion_Project/src/main.cpp
 iostream
 -
-../include/Test_Thread.h
-/home/silen/Silen/Workspace/CPP/Clion_Project/include/Test_Thread.h
+Test_Class_Object.h
+/home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Class_Object.h
+Test_Thread.h
+/home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Thread.h
 

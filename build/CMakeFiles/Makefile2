@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/silen/Silen/Workspace/CPP/Clion_Project/build
 CMakeFiles/CPP.dir/all:
 	$(MAKE) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/depend
 	$(MAKE) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/silen/Silen/Workspace/CPP/Clion_Project/build/CMakeFiles --progress-num=1,2,3,4 "Built target CPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/silen/Silen/Workspace/CPP/Clion_Project/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target CPP"
 .PHONY : CMakeFiles/CPP.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/CPP.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CPP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/silen/Silen/Workspace/CPP/Clion_Project/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/silen/Silen/Workspace/CPP/Clion_Project/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CPP.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/silen/Silen/Workspace/CPP/Clion_Project/build/CMakeFiles 0
 .PHONY : CMakeFiles/CPP.dir/rule

@@ -1,5 +1,5 @@
 //
-// Created by silen on 4/9/18.
+// Created by Silen on 4/9/18.
 //
 
 #ifndef CPP_TEST_THREAD_H

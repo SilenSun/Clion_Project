@@ -129,11 +129,61 @@ CMakeFiles/CPP.dir/src/Test_Pointer.cpp.o.provides: CMakeFiles/CPP.dir/src/Test_
 CMakeFiles/CPP.dir/src/Test_Pointer.cpp.o.provides.build: CMakeFiles/CPP.dir/src/Test_Pointer.cpp.o
 
 
+CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o: CMakeFiles/CPP.dir/flags.make
+CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o: ../src/Test_Smart_Ptr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/silen/Silen/Workspace/CPP/Clion_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o -c /home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Smart_Ptr.cpp
+
+CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Smart_Ptr.cpp > CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.i
+
+CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Smart_Ptr.cpp -o CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.s
+
+CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o.requires:
+
+.PHONY : CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o.requires
+
+CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o.provides: CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o.provides.build
+.PHONY : CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o.provides
+
+CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o.provides.build: CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o
+
+
+CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o: CMakeFiles/CPP.dir/flags.make
+CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o: ../src/Test_Class_Object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/silen/Silen/Workspace/CPP/Clion_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o -c /home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Class_Object.cpp
+
+CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Class_Object.cpp > CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.i
+
+CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/silen/Silen/Workspace/CPP/Clion_Project/src/Test_Class_Object.cpp -o CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.s
+
+CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o.requires:
+
+.PHONY : CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o.requires
+
+CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o.provides: CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o.provides.build
+.PHONY : CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o.provides
+
+CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o.provides.build: CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o
+
+
 # Object files for target CPP
 CPP_OBJECTS = \
 "CMakeFiles/CPP.dir/src/main.cpp.o" \
 "CMakeFiles/CPP.dir/src/Test_Thread.cpp.o" \
-"CMakeFiles/CPP.dir/src/Test_Pointer.cpp.o"
+"CMakeFiles/CPP.dir/src/Test_Pointer.cpp.o" \
+"CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o" \
+"CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o"
 
 # External object files for target CPP
 CPP_EXTERNAL_OBJECTS =
@@ -141,9 +191,11 @@ CPP_EXTERNAL_OBJECTS =
 CPP: CMakeFiles/CPP.dir/src/main.cpp.o
 CPP: CMakeFiles/CPP.dir/src/Test_Thread.cpp.o
 CPP: CMakeFiles/CPP.dir/src/Test_Pointer.cpp.o
+CPP: CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o
+CPP: CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o
 CPP: CMakeFiles/CPP.dir/build.make
 CPP: CMakeFiles/CPP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/silen/Silen/Workspace/CPP/Clion_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/silen/Silen/Workspace/CPP/Clion_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CPP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CPP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +206,8 @@ CMakeFiles/CPP.dir/build: CPP
 CMakeFiles/CPP.dir/requires: CMakeFiles/CPP.dir/src/main.cpp.o.requires
 CMakeFiles/CPP.dir/requires: CMakeFiles/CPP.dir/src/Test_Thread.cpp.o.requires
 CMakeFiles/CPP.dir/requires: CMakeFiles/CPP.dir/src/Test_Pointer.cpp.o.requires
+CMakeFiles/CPP.dir/requires: CMakeFiles/CPP.dir/src/Test_Smart_Ptr.cpp.o.requires
+CMakeFiles/CPP.dir/requires: CMakeFiles/CPP.dir/src/Test_Class_Object.cpp.o.requires
 
 .PHONY : CMakeFiles/CPP.dir/requires
 
